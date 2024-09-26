@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Game</title>
+    <link rel="stylesheet" href="../Random number game website/styles.css">
+</head>
+<body>
+    <h1>Random Number Game</h1>
+    <div id="random-game">
+        <div class="container">
+            <h1>Random Number Game</h1>
+            <p>Guess the number between 1 and 10</p>
+            <input type="number" id="userInput" placeholder="Enter your guess" min="1" max="100">
+            <button onclick="checkGuess()">Guess</button>
+            <p id="result"></p>
+            <button onclick="resetGame()">Restart Game</button>
+        </div>
+    </div>
+    <script src="../Random number game website/script.js"></script>
+</body>
+</html>
